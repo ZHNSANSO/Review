@@ -1,0 +1,5 @@
+{
+  "name": "STM32 Exam Review System",
+  "description": "A focused review platform for Sensing Application Development (STM32/IoT), featuring interactive answer toggling, difficulty bookmarking, and dark mode.",
+  "requestFramePermissions": []
+}
