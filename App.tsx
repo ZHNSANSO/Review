@@ -18,7 +18,8 @@ const App: React.FC = () => {
   });
 
   // State for selected exam paper
-  const [currentPaperId, setCurrentPaperId] = useState<string>('mock_2');
+  // Default to 'short_special' as requested
+  const [currentPaperId, setCurrentPaperId] = useState<string>('short_special');
   const [currentTab, setCurrentTab] = useState<'all' | 'wrong'>('all');
   const [searchQuery, setSearchQuery] = useState('');
 
